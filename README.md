@@ -7,11 +7,11 @@ This repository was created for the purpose of learning Deno. Ultimately, I woul
 The following is a list of TODOs planned for learning in this repository:
 
 - [ ] Understanding the basic features of Deno
-- [ ] Setting up the development environment with TypeScript
 - [ ] Understanding Deno's module system
 - [ ] Utilizing Deno's security features
 - [ ] Learning how to use Deno's testing framework
 - [ ] Mastering debugging techniques in Deno
+- [ ] Using the Pokémon API to display a list
 - [ ] Implementing CI with GitHub Actions
 - [ ] Developing a backend that accesses a database
 
@@ -31,11 +31,11 @@ I found a helpful article on Deno's coding style that you might find useful. You
 以下は、このリポジトリで学習するために計画されたTODOリストです：
 
 - [ ] Denoの基本機能の理解
-- [ ] TypeScriptを使用した開発環境のセットアップ
 - [ ] Denoのモジュールシステムの理解
 - [ ] Denoのセキュリティ機能の活用
 - [ ] Denoのテストフレームワークの使用方法の学習
 - [ ] Denoでのデバッグ技術の習得
+- [ ] ポケモンAPIを使用してリストを表示する
 - [ ] GitHub Actionsを使用したCIの実装
 - [ ] データベースにアクセスするバックエンドの開発
 
