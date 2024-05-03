@@ -1,6 +1,7 @@
 # Deno Learning Repository
 
-This repository was created for the purpose of learning Deno. Ultimately, I would like to develop a backend that accesses a database.
+This repository was created for the purpose of learning Deno. Ultimately, I
+would like to develop a backend that accesses a database.
 
 ## TODO List for Learning
 
@@ -15,10 +16,13 @@ The following is a list of TODOs planned for learning in this repository:
 - [ ] Implementing CI with GitHub Actions
 - [ ] Developing a backend that accesses a database
 
-Through this repository, I aim to deepen my knowledge of Deno and acquire practical skills.
+Through this repository, I aim to deepen my knowledge of Deno and acquire
+practical skills.
 
 ## Reference Article
+
 I found a helpful article on Deno that you might find useful.
+
 - [Effective Deno](https://zenn.dev/uki00a/books/effective-deno/viewer/follow-denos-style)
 
 ---
@@ -42,7 +46,8 @@ I found a helpful article on Deno that you might find useful.
 
 このリポジトリを通じて、Denoの知識を深め、実践的なスキルを身につけることを目指しています。
 
-
 ## 参考記事
+
 参考にした記事は、Denoについての役立つ記事です。
+
 - [Effective Deno](https://zenn.dev/uki00a/books/effective-deno/viewer/follow-denos-style)
