@@ -41,7 +41,7 @@ I found a helpful article on Deno that you might find useful.
 - [x] Denoのテストフレームワークの使用方法の学習
 - [x] Denoでのデバッグ技術の習得
 - [x] ポケモンAPIを使用してリストを表示する
-- [ ] GitHub Actionsを使用したCIの実装
+- [x] GitHub Actionsを使用したCIの実装
 - [ ] データベースにアクセスするバックエンドの開発
 
 このリポジトリを通じて、Denoの知識を深め、実践的なスキルを身につけることを目指しています。
