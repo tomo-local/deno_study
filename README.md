@@ -12,6 +12,7 @@ The following is a list of TODOs planned for learning in this repository:
 - [ ] Utilizing Deno's security features
 - [ ] Learning how to use Deno's testing framework
 - [ ] Mastering debugging techniques in Deno
+- [ ] Implementing CI with GitHub Actions
 - [ ] Developing a backend that accesses a database
 
 Through this repository, I aim to deepen my knowledge of Deno and acquire practical skills.
@@ -32,6 +33,7 @@ Through this repository, I aim to deepen my knowledge of Deno and acquire practi
 - [ ] Denoのセキュリティ機能の活用
 - [ ] Denoのテストフレームワークの使用方法の学習
 - [ ] Denoでのデバッグ技術の習得
+- [ ] GitHub Actionsを使用したCIの実装
 - [ ] データベースにアクセスするバックエンドの開発
 
 このリポジトリを通じて、Denoの知識を深め、実践的なスキルを身につけることを目指しています。
