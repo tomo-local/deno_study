@@ -18,7 +18,8 @@ The following is a list of TODOs planned for learning in this repository:
 Through this repository, I aim to deepen my knowledge of Deno and acquire practical skills.
 
 ## Reference Article
-I found a helpful article on Deno's coding style that you might find useful. You can check it out [here](https://zenn.dev/uki00a/books/effective-deno/viewer/follow-denos-style).
+I found a helpful article on Deno that you might find useful.
+- [Effective Deno](https://zenn.dev/uki00a/books/effective-deno/viewer/follow-denos-style)
 
 ---
 
@@ -43,4 +44,5 @@ I found a helpful article on Deno's coding style that you might find useful. You
 
 
 ## 参考記事
-参考にした記事は、Denoのコーディングスタイルについての役立つ記事です。[こちら](https://zenn.dev/uki00a/books/effective-deno/viewer/follow-denos-style)からご覧いただけます。
+参考にした記事は、Denoについての役立つ記事です。
+- [Effective Deno](https://zenn.dev/uki00a/books/effective-deno/viewer/follow-denos-style)
