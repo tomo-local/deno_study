@@ -9,8 +9,8 @@ The following is a list of TODOs planned for learning in this repository:
 - [x] Understanding the basic features of Deno
 - [x] Understanding Deno's module system
 - [x] Utilizing Deno's security features
-- [ ] Learning how to use Deno's testing framework
-- [ ] Mastering debugging techniques in Deno
+- [x] Learning how to use Deno's testing framework
+- [x] Mastering debugging techniques in Deno
 - [ ] Using the Pokémon API to display a list
 - [ ] Implementing CI with GitHub Actions
 - [ ] Developing a backend that accesses a database
@@ -34,8 +34,8 @@ I found a helpful article on Deno that you might find useful.
 - [x] Denoの基本機能の理解
 - [x] Denoのモジュールシステムの理解
 - [x] Denoのセキュリティ機能の活用
-- [ ] Denoのテストフレームワークの使用方法の学習
-- [ ] Denoでのデバッグ技術の習得
+- [x] Denoのテストフレームワークの使用方法の学習
+- [x] Denoでのデバッグ技術の習得
 - [ ] ポケモンAPIを使用してリストを表示する
 - [ ] GitHub Actionsを使用したCIの実装
 - [ ] データベースにアクセスするバックエンドの開発
