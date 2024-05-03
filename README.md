@@ -13,7 +13,7 @@ The following is a list of TODOs planned for learning in this repository:
 - [x] Learning how to use Deno's testing framework
 - [x] Mastering debugging techniques in Deno
 - [x] Using the Pokémon API to display a list
-- [ ] Implementing CI with GitHub Actions
+- [x] Implementing CI with GitHub Actions
 - [ ] Developing a backend that accesses a database
 
 Through this repository, I aim to deepen my knowledge of Deno and acquire
