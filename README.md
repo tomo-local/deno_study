@@ -6,9 +6,9 @@ This repository was created for the purpose of learning Deno. Ultimately, I woul
 
 The following is a list of TODOs planned for learning in this repository:
 
-- [ ] Understanding the basic features of Deno
-- [ ] Understanding Deno's module system
-- [ ] Utilizing Deno's security features
+- [x] Understanding the basic features of Deno
+- [x] Understanding Deno's module system
+- [x] Utilizing Deno's security features
 - [ ] Learning how to use Deno's testing framework
 - [ ] Mastering debugging techniques in Deno
 - [ ] Using the Pokémon API to display a list
@@ -31,9 +31,9 @@ I found a helpful article on Deno that you might find useful.
 
 以下は、このリポジトリで学習するために計画されたTODOリストです：
 
-- [ ] Denoの基本機能の理解
-- [ ] Denoのモジュールシステムの理解
-- [ ] Denoのセキュリティ機能の活用
+- [x] Denoの基本機能の理解
+- [x] Denoのモジュールシステムの理解
+- [x] Denoのセキュリティ機能の活用
 - [ ] Denoのテストフレームワークの使用方法の学習
 - [ ] Denoでのデバッグ技術の習得
 - [ ] ポケモンAPIを使用してリストを表示する
