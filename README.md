@@ -14,7 +14,7 @@ The following is a list of TODOs planned for learning in this repository:
 - [x] Mastering debugging techniques in Deno
 - [x] Using the Pokémon API to display a list
 - [x] Implementing CI with GitHub Actions
-- [ ] Developing a backend that accesses a database
+- [x] Developing a backend that accesses a database
 
 Through this repository, I aim to deepen my knowledge of Deno and acquire
 practical skills.
@@ -42,7 +42,7 @@ I found a helpful article on Deno that you might find useful.
 - [x] Denoでのデバッグ技術の習得
 - [x] ポケモンAPIを使用してリストを表示する
 - [x] GitHub Actionsを使用したCIの実装
-- [ ] データベースにアクセスするバックエンドの開発
+- [x] データベースにアクセスするバックエンドの開発
 
 このリポジトリを通じて、Denoの知識を深め、実践的なスキルを身につけることを目指しています。
 
