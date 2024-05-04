@@ -78,7 +78,6 @@ export interface PokemonType {
       url: string;
     };
   }[];
-
 }
 
 export interface PokemonSpecies {

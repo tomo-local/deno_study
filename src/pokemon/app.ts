@@ -1,7 +1,7 @@
 import { serve } from "https://deno.land/std@0.178.0/http/server.ts";
 import { serveFile } from "https://deno.land/std@0.178.0/http/file_server.ts";
 
-import { getPokemonList, getPokemonDetails } from './api.ts'
+import { getPokemonDetails, getPokemonList } from "./api.ts";
 
 async function handler(request: Request): Promise<Response> {
   const requestUrl = new URL(request.url);
@@ -25,7 +25,7 @@ async function handler(request: Request): Promise<Response> {
 
   if (requestUrl.pathname.startsWith("/pokemon/")) {
     const pokemonId = requestUrl.pathname.split("/")[2];
-    const pokemonDetails = await getPokemonDetails(pokemonId,"ja");
+    const pokemonDetails = await getPokemonDetails(pokemonId, "ja");
 
     return new Response(JSON.stringify(pokemonDetails), {
       headers: {

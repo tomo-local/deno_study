@@ -1,8 +1,4 @@
-import {
-  PokemonListResponse,
-  Pokemon,
-  PokemonSpecies,
-} from "./model.ts";
+import { Pokemon, PokemonListResponse, PokemonSpecies } from "./model.ts";
 
 const POKEMON_API_V2_URL = "https://pokeapi.co/api/v2";
 
@@ -41,7 +37,10 @@ export async function getPokemonList({
   return response.json();
 }
 
-export async function getPokemonDetails(id: string | number, language?: string) {
+export async function getPokemonDetails(
+  id: string | number,
+  language?: string,
+) {
   const response = await Promise.all([getPokemonSpecies(id), getPokemon(id)]);
 
   if (!language) {
@@ -51,21 +50,22 @@ export async function getPokemonDetails(id: string | number, language?: string) 
   const [species, pokemon] = response;
 
   species.flavor_text_entries = species.flavor_text_entries.filter(
-    (entry) => entry.language.name === language
+    (entry) => entry.language.name === language,
   );
 
   species.genera = species.genera.filter(
-    (entry) => entry.language.name === language
+    (entry) => entry.language.name === language,
   );
 
   species.names = species.names.filter(
-    (entry) => entry.language.name === language
+    (entry) => entry.language.name === language,
   );
 
-  pokemon.name = species.names.find((entry) => entry.language.name === language)?.name || pokemon.name;
+  pokemon.name =
+    species.names.find((entry) => entry.language.name === language)?.name ||
+    pokemon.name;
 
-  return pokemon
-
+  return pokemon;
 }
 
 export async function getPokemon(id: string | number): Promise<Pokemon> {
@@ -86,7 +86,7 @@ export async function getPokemon(id: string | number): Promise<Pokemon> {
 }
 
 export async function getPokemonSpecies(
-  id: string | number
+  id: string | number,
 ): Promise<PokemonSpecies> {
   const url = generatePokemonAPI({
     type: "pokemon-species",
